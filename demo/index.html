@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+<nav></nav>
+
+<h1>Scroll Down / Up</h1>
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="../jquery.scrollDetection.js"></script>
+<script>
+    $nav = $("nav");
+    $.scrollDetection({
+        scrollDown: function() {
+            $nav.fadeOut();
+        },
+        scrollUp: function() {
+            $nav.fadeIn();
+        }
+    });
+</script>
+</body>
+</html>
