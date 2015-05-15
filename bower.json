@@ -1,0 +1,22 @@
+{
+  "name": "jquery.scrollDetection",
+  "main": "jquery.scrollDetection.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/melbon/jquery.scrollDetection",
+  "authors": [
+    "melbon <mario@vidov.it>"
+  ],
+  "description": "jquery.scrollDetection detects your scroll position /up or down/",
+  "keywords": [
+    "scroll",
+    "detection"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
