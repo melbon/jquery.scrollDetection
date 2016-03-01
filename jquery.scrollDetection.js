@@ -17,7 +17,8 @@ $.scrollDetection = function(options) {
         var cursorPosition = $(this).scrollTop();
         if (cursorPosition > scrollPosition) {
             settings.scrollDown();
-        } else {
+        }
+        else if (cursorPosition < scrollPosition) {
             settings.scrollUp();
         }
         scrollPosition = cursorPosition;

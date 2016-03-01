@@ -19,10 +19,10 @@
     $nav = $("nav");
     $.scrollDetection({
         scrollDown: function() {
-            $nav.fadeOut();
+            $nav.stop().fadeOut();
         },
         scrollUp: function() {
-            $nav.fadeIn();
+            $nav.stop().fadeIn();
         }
     });
 </script>
