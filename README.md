@@ -14,13 +14,13 @@ bower install scrolldetection
 $.scrollDetection();
 ```
 ## Configuration
-#####scrollDown
+#### scrollDown
 will be executed when you scroll down
 ```javascript
 default: {}
 options: function
 ```
-#####scrollUp
+#### scrollUp
 will be executed when you scroll up
 ```javascript
 default: {}
